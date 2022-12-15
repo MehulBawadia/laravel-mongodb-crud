@@ -13,3 +13,14 @@ code . // or subl .
 cp .env.example .env
 composer install
 ```
+
+#### Manually
+
+- Download this repoitory
+- Open it in the editor of your choice
+- In the terminal, run
+```
+composer install
+```
+- Save .env.example file as .env
+- Update the `MONGO_DB_*` credentials in the .env file
